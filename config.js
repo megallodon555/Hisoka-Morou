@@ -1,5 +1,5 @@
 /**
-   * Create By Dika Ardnt.
+   * Create By Ikky Dev.
    * Contact Me on wa.me/6283150688326
    * Follow https://github.com/megallodon555
 */
@@ -14,7 +14,7 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'Your Key',
+	'https://zenzapis.xyz': 'd925dba512',
 }
 
 // Other
