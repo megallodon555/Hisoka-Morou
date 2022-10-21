@@ -1163,7 +1163,7 @@ break
             if (!isCreator) throw mess.owner
                 let ciko = db.data.settings[botNumber].anticall
                 if (args[0] === "on") {
-                if (ciko) return m.reply(`Sudah Aktif Sebelumnya`)
+                if (ciko) return m.reply(`Sudah Diaktifkan Sebelumnya`)
                 ciko = true
                 m.reply(`AntiCall Aktif !`)
                 } else if (args[0] === "off") {
@@ -1188,7 +1188,7 @@ break
             break
             case 'bcgc': case 'bcgroup': {
                 if (!isCreator) throw mess.owner
-                if (!text) throw `Text mana?\n\nExample : ${prefix + command} fatih-san`
+                if (!text) throw `LOL Text Nya Mana?\n\nExample : ${prefix + command} fatih-san`
                 let getGroups = await hisoka.groupFetchAllParticipating()
                 let groups = Object.entries(getGroups).slice(0).map(entry => entry[1])
                 let anu = groups.map(v => v.id)
@@ -1197,13 +1197,13 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Sumber Script Bot',
+                                    url: 'https://github.com/megallodon555/Hisoka-Morou'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 831-5068-8326'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1236,13 +1236,13 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Sumber Script Bot',
+                                    url: 'https://github.com/megallodon555/Hisoka-Morou'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 831-5068-8326'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1669,7 +1669,7 @@ break
             }
             break
             case 'wallpaper': {
-                if (!text) throw 'Masukkan Query Title'
+                if (!text) throw 'Mau Cari Wallpaper Apa Kak??'
 		let { wallpaper } = require('./lib/scraper')
                 anu = await wallpaper(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
@@ -1687,7 +1687,7 @@ break
             }
             break
             case 'wikimedia': {
-                if (!text) throw 'Masukkan Query Title'
+                if (!text) throw 'Mau Cari Apa Kak??'
 		let { wikimedia } = require('./lib/scraper')
                 anu = await wikimedia(text)
                 result = anu[Math.floor(Math.random() * anu.length)]
@@ -3102,12 +3102,12 @@ let capt = `⭔ Title: ${judul}
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://github.com/megallodon555/Hisoka-Morou'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    phoneNumber: '+62 831-5068-8326'
                                 }
                             }, {
                                 quickReplyButton: {
